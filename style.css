@@ -11,7 +11,7 @@ h1 {
     color: peru;
 }
 
-section {
+.flexible-continer {
     display: flex;
 }
 
@@ -22,7 +22,6 @@ section {
 
 .half-width img {
     width: 100%;
-
 }
 
 .link-buttom {
@@ -46,11 +45,6 @@ section {
     border-radius: 5%;
 }
 
-section {
-    display: flex;
-    margin-bottom: 5%%;
-}
-
 .half-wid {
     width: 50%;
     padding: 5%;
@@ -64,4 +58,24 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.expe-iteam {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: ;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
